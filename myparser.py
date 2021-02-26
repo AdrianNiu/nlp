@@ -102,6 +102,7 @@ cfg3 = r"""
         """
 
 Reg_parser = nltk.RegexpParser(cfg3)
+# change the cfg# to adjust context free grammar number to test 
 Reg_parser.parse(input_pos_tagged)
 Output = Reg_parser.parse(input_pos_tagged)
 print(Output)
