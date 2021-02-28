@@ -135,3 +135,5 @@ for parse in parser.parse(input):
   print(parse)
   parse.draw()
 # The parser with this case only shows 1 parser senario, but other parser relacing pchart can have mutiple result output
+
+# Three grammar to recap: CFG, PCFG, DG
