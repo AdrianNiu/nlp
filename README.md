@@ -8,3 +8,12 @@ Lexical sample − This kind of corpora is used in the system, where it is requi
 
 All-words − This kind of corpora is used in the system, where it is expected to disambiguate all the words in a piece of running text.
 
+##Two main category of parsing
+
+Constituency parsing
+identify phrases and their hierarchical (is-a) relations (excludes terminal nodes)
+
+Dependency parsing
+identify grammatical relations (lots of them) between syntactic units (including terminal nodes)
+
+
