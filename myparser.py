@@ -104,10 +104,10 @@ cfg3 = r"""
 Reg_parser = nltk.RegexpParser(cfg3)
 Reg_parser.parse(input_pos_tagged)
 Output = Reg_parser.parse(input_pos_tagged)
-print(Output)
-Output.draw()
-
-quit()
+# print(Output)
+# Output.draw()
+#
+# quit()
 
 ##################################
 ### Parsing with a PCFG ###########
@@ -127,8 +127,10 @@ pcfg1 = nltk.PCFG.fromstring("""
 """)
 
 parser = nltk.pchart.InsideChartParser(pcfg1)
+# calling the pchart parser which can be used with PCFG
 input = tokens[0:len(tokens)-1]
 
 for parse in parser.parse(input):
   print(parse)
   parse.draw()
+# The parser with this case only shows 1 parser senario, but other parser relacing pchart can have mutiple result output
