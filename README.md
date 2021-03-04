@@ -20,3 +20,8 @@ What Is a Corpus?
 A corpus is a collection of machine-readable texts that have been produced in a natural communicative setting. 
 
 Active learning aims at reducing the number of examples required to achieve the desired accuracy by selectively sampling the examples for user to label and train the classifier.
+
+Validation method:
+Macroaveraging: Compute performance for each class, then average.
+Microaveraging: Collect decisions for all classes, compute contingency table, evaluate.
+
