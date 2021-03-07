@@ -30,3 +30,14 @@ abbreviation_disambiguation_baseline.py
 Naive Bayes
 
 P(c|x) = P(x|c) * P(c) / P(x)
+
+Generative
+models the actual distribution of each class
+full probabilistic model of all variables - specifies a joint probability distribution over observation and label sequences. 
+Bayesian network, Naïve Bayes, Hidden Markov Model…
+
+Discriminative
+models the decision boundary between the classes
+model only for the target variable(s) conditional on the observed variables
+Logistic regression, Decision tree, Support vector machine, k nearest neighbor, conditional random field…
+
