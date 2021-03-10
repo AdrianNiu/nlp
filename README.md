@@ -27,6 +27,9 @@ Microaveraging: Collect decisions for all classes, compute contingency table, ev
 
 abbreviation_disambiguation_baseline.py
 
+txt = dtf["text"].iloc[0]
+print(txt, " --> ", langdetect.detect(txt))
+
 Naive Bayes
 
 P(c|x) = P(x|c) * P(c) / P(x)
