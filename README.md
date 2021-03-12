@@ -50,3 +50,10 @@ Given labeled training data (supervised learning), the algorithm outputs an opti
 In two dimensional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side
 
 In NLP mental health prediction research, when studying proxy signals, it is crusical to see if it actually mapped to a good measurement of mental illness and symptoms.
+
+Word embeddings help in the following use cases.
+Compute similar words
+Text classifications
+Document clustering/grouping
+Feature extraction for text classifications
+Natural language processing.
