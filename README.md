@@ -57,3 +57,5 @@ Text classifications
 Document clustering/grouping
 Feature extraction for text classifications
 Natural language processing.
+
+AWS Kinesis works as a temporary storage mechanism for faster retrieval for further downstream components and NLP. Once data is produced, it is consumed by the consumer. 
