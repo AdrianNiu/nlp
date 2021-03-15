@@ -66,3 +66,18 @@ The most intuitive way to do so is to use a bags of words representation:
 Assign a fixed integer id to each word occurring in any document of the training set (for instance by building a dictionary from words to integer indices).
 
 For each document #i, count the number of occurrences of each word w and store it in X[i, j] as the value of feature #j where j is the index of word w in the dictionary.
+
+def get_bag_of_words_features(document, vocabulary):
+    """
+    Bag of words representation of the text in the specified document.
+
+    :param str document: Plain text.
+    :param list vocabulary: The unique set of words across all documents.
+    :returns: Bag of words features for this document.
+    :rtype: dict
+    """
+    document_words = set(nltk.word_tokenize(document.lower()))
+    features = {}
+    for word in vocabulary:
+        features[f"contains({word})"] = (word in document_words)
+    return features
