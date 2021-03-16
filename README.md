@@ -81,3 +81,6 @@ def get_bag_of_words_features(document, vocabulary):
     for word in vocabulary:
         features[f"contains({word})"] = (word in document_words)
     return features
+    
+Word2Vec
+Word2Vec — Word representations in Vector Space founded by Tomas Mikolov and a group of a research team from Google developed this model in 2013.
