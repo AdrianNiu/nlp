@@ -87,3 +87,6 @@ Word2Vec — Word representations in Vector Space founded by Tomas Mikolov and a
 
 Standard NLP Workflow
 CRISP-DM Model is a Cross-industry standard process for data mining, known as CRISP-DM, which is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. Typically, any NLP-based problem can be solved by a methodical workflow that has a sequence of steps. The major steps are depicted in the following figure.
+
+Syntactic Regularities: Refers to grammatical sentence correction.
+Semantic Regularities: Refers to the meaning of the vocabulary symbols arranged in that structure.
