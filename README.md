@@ -90,3 +90,10 @@ CRISP-DM Model is a Cross-industry standard process for data mining, known as CR
 
 Syntactic Regularities: Refers to grammatical sentence correction.
 Semantic Regularities: Refers to the meaning of the vocabulary symbols arranged in that structure.
+
+
+>>> def pos_features(word):
+...     features = {}
+...     for suffix in common_suffixes:
+...         features['endswith({})'.format(suffix)] = word.lower().endswith(suffix)
+...     return features
