@@ -97,3 +97,20 @@ Semantic Regularities: Refers to the meaning of the vocabulary symbols arranged 
 ...     for suffix in common_suffixes:
 ...         features['endswith({})'.format(suffix)] = word.lower().endswith(suffix)
 ...     return features
+
+
+def get_short_form_feature(short_form, all_short_forms):
+    """
+    Feature representation of the short form we are trying to disambiguate.
+
+    :param str short_form: An abbreviation or acronym, e.g. "AB".
+    :param list all_short_forms: The set of all unique abbreviations/acronyms.
+    :returns: Feature representing this short form.
+    :rtype: dict
+    """
+    features = {}
+    for sf in all_short_forms:
+        features[f"short_form({sf})"] = (sf == short_form.lower())
+    # Unknown short_form. I.e. we didn't see it in the training set.
+    features["UNK"] = (short_form.lower() in all_short_forms)
+    return features
