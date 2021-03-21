@@ -114,3 +114,7 @@ def get_short_form_feature(short_form, all_short_forms):
     # Unknown short_form. I.e. we didn't see it in the training set.
     features["UNK"] = (short_form.lower() in all_short_forms)
     return features
+    
+>>> classifier = nltk.DecisionTreeClassifier.train(train_set)
+>>> nltk.classify.accuracy(classifier, test_set)
+0.62705121829935351
