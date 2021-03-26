@@ -199,3 +199,24 @@ def remove_less_significant_features(X, Y):
             break
     regression_ols.summary()
     return columns_dropped
+    
+    from sklearn.metrics import accuracy_score
+from sklearn.svm import LinearSVC
+
+
+# Transform each text into a vector of word counts
+vectorizer = CountVectorizer(stop_words="english",
+                             preprocessor=clean_text)
+
+training_features = vectorizer.fit_transform(train_data["text"])    
+test_features = vectorizer.transform(test_data["text"])
+
+# Training
+model = LinearSVC()
+model.fit(training_features, train_data["sentiment"])
+y_pred = model.predict(test_features)
+
+# Evaluation
+acc = accuracy_score(test_data["sentiment"], y_pred)
+
+print("Accuracy on the IMDB dataset: {:.2f}".format(acc*100))
