@@ -220,3 +220,10 @@ y_pred = model.predict(test_features)
 acc = accuracy_score(test_data["sentiment"], y_pred)
 
 print("Accuracy on the IMDB dataset: {:.2f}".format(acc*100))
+
+logdir = "logs/scalars/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
+
+chars = sorted(list(set(text)))
+char_indices = dict((c, i) for i, c in enumerate(chars))
+indices_char = dict((i, c) for i, c in enumerate(chars))
