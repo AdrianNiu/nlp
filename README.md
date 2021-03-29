@@ -231,3 +231,26 @@ indices_char = dict((i, c) for i, c in enumerate(chars))
 Tokenization: is used to segment the input text into its constituents words (tokens). In this way, it becomes easier to then convert our data into a numerical format.
 Stop Words Removal: is applied in order to remove from our text all the prepositions (eg. “an”, “the”, etc…) which can just be considered as a source of noise in our data (since they do not carry additional informative information in our data).
 Stemming: is finally used in order to get rid of all the affixes in our data (eg. prefixes or suffixes). In this way, it can in fact become much easier for our algorithm to not consider as distinguished words which have actually similar meaning (eg. insight ~ insightful).
+
+from sklearn.svm import LinearSVC
+from sklearn.metrics import accuracy_score
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+
+# Transform each text into a vector of word counts
+vectorizer = TfidfVectorizer(stop_words="english",
+                             preprocessor=clean_text,
+                             ngram_range=(1, 2))
+
+training_features = vectorizer.fit_transform(train_data["text"])    
+test_features = vectorizer.transform(test_data["text"])
+
+# Training
+model = LinearSVC()
+model.fit(training_features, train_data["sentiment"])
+y_pred = model.predict(test_features)
+
+# Evaluation
+acc = accuracy_score(test_data["sentiment"], y_pred)
+
+print("Accuracy on the IMDB dataset: {:.2f}".format(acc*100))
