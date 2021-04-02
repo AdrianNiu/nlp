@@ -326,3 +326,16 @@ def load_train_test_imdb_data(data_dir):
     return data["train"], data["test"]
 
 Disambiguation task
+
+
+Importance of rule-based methods![image](https://user-images.githubusercontent.com/49884281/113377422-3f0eef00-9342-11eb-94df-23b9185812b1.png)
+
+Rule-based methods play a surprisingly large role
+Sophisticated sequences of regular expressions are often the first model for any text processing text
+High precision for specific NE classes
+Time consuming, lack generality
+For many hard tasks, we use machine learning classifiers
+But regular expressions are used as features in the classifiers
+Can be very useful in capturing generalizations
+![image](https://user-images.githubusercontent.com/49884281/113377437-459d6680-9342-11eb-8b91-8d875e2b2b3d.png)
+
