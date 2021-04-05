@@ -231,3 +231,16 @@ indices_char = dict((i, c) for i, c in enumerate(chars))
 Tokenization: is used to segment the input text into its constituents words (tokens). In this way, it becomes easier to then convert our data into a numerical format.
 Stop Words Removal: is applied in order to remove from our text all the prepositions (eg. “an”, “the”, etc…) which can just be considered as a source of noise in our data (since they do not carry additional informative information in our data).
 Stemming: is finally used in order to get rid of all the affixes in our data (eg. prefixes or suffixes). In this way, it can in fact become much easier for our algorithm to not consider as distinguished words which have actually similar meaning (eg. insight ~ insightful).
+
+Words
+Current word (essentially like a learned dictionary)
+Previous/next word (context)
+Other available linguistic information
+Part-of-speech tags
+Syntactic structure
+Semantic information (e.g., dictionary lookup results)
+Label context
+Previous (and perhaps next) label
+
+![image](https://user-images.githubusercontent.com/49884281/113531109-e172e080-9595-11eb-8ebd-6c78b7c82f2f.png)
+
