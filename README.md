@@ -242,5 +242,14 @@ Semantic information (e.g., dictionary lookup results)
 Label context
 Previous (and perhaps next) label
 
-![image](https://user-images.githubusercontent.com/49884281/113531109-e172e080-9595-11eb-8ebd-6c78b7c82f2f.png)
+
+Clinical
+Medical concept: disease, medication, procedure, lab test, adverse drug reaction (ADR)
+Attributes: negation, severity, uncertainty, temporal
+Medical relation: treatment, ADR, drug-drug interaction 
+Biomedical Literature
+Biomedical concept: gene, protein, chemical
+Relations: Gene Protein Interaction, Molecular Pathway, gene-drug relation, obesity/smoking - cancer
+
+
 
