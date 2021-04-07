@@ -251,5 +251,5 @@ Biomedical Literature
 Biomedical concept: gene, protein, chemical
 Relations: Gene Protein Interaction, Molecular Pathway, gene-drug relation, obesity/smoking - cancer
 
-
+ General Architecture for Text Engineering platform (GATE; www.gate.ac.uk) which allows researchers to pre-process, classify and evaluate classification models
 
