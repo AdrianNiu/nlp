@@ -253,3 +253,12 @@ Relations: Gene Protein Interaction, Molecular Pathway, gene-drug relation, obes
 
  General Architecture for Text Engineering platform (GATE; www.gate.ac.uk) which allows researchers to pre-process, classify and evaluate classification models
 
+// index.js
+
+var natural = require('natural');
+var Analyzer = natural.SentimentAnalyzer;
+var stemmer = natural.PorterStemmer;
+var analyzer = new Analyzer("English", stemmer, "afinn");
+
+// getSentiment expects an array of strings
+console.log(analyzer.getSentiment(["I", "don't", "want", "to", "play", "with", "you"]))
