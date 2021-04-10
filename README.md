@@ -241,25 +241,3 @@ Syntactic structure
 Semantic information (e.g., dictionary lookup results)
 Label context
 Previous (and perhaps next) label
-
-
-Clinical
-Medical concept: disease, medication, procedure, lab test, adverse drug reaction (ADR)
-Attributes: negation, severity, uncertainty, temporal
-Medical relation: treatment, ADR, drug-drug interaction 
-Biomedical Literature
-Biomedical concept: gene, protein, chemical
-Relations: Gene Protein Interaction, Molecular Pathway, gene-drug relation, obesity/smoking - cancer
-
- General Architecture for Text Engineering platform (GATE; www.gate.ac.uk) which allows researchers to pre-process, classify and evaluate classification models
-
-Recall: 
-    Fraction of docs in class i classified correctly:
-
-Precision: 
-    Fraction of docs assigned class i that are actually about class i:
-
-Accuracy: (1 - error rate) 
-       Fraction of docs classified correctly:
-![image](https://user-images.githubusercontent.com/49884281/114125913-5d866480-98c5-11eb-9e1f-40e3012b5578.png)
-
