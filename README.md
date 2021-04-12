@@ -253,3 +253,14 @@ freq = nltk.FreqDist(clean_tokens)
 for key,val in freq.items():
     print(str(key) + ':' + str(val))
 freq.plot(20, cumulative=False)
+
+Identify concepts (names) in text and classify into predefined semantic categories.
+History
+Sixth Message Understanding Conference (MUC-6) - 1995
+NER in open Natural Language Processing (NLP) domain: Person name, organization name, location name
+MUC-6, MET-2, ConLL, ACE
+NER in clinical NLP domain
+Problem, treatment, lab test
+I2B2 (N2C2), SemEval, 
+![image](https://user-images.githubusercontent.com/49884281/114333382-2c50a300-9b16-11eb-9173-a92e1eed4bc1.png)
+
