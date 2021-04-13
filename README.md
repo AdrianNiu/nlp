@@ -254,13 +254,15 @@ for key,val in freq.items():
     print(str(key) + ':' + str(val))
 freq.plot(20, cumulative=False)
 
-Identify concepts (names) in text and classify into predefined semantic categories.
-History
-Sixth Message Understanding Conference (MUC-6) - 1995
-NER in open Natural Language Processing (NLP) domain: Person name, organization name, location name
-MUC-6, MET-2, ConLL, ACE
-NER in clinical NLP domain
-Problem, treatment, lab test
-I2B2 (N2C2), SemEval, 
-![image](https://user-images.githubusercontent.com/49884281/114333382-2c50a300-9b16-11eb-9173-a92e1eed4bc1.png)
+Ways to generate rule:
+
+Manual knowledge engineering
+Collaboration of informatician and domain experts (physicians)
+Leveraging knowledge bases
+medical concepts: UMLS
+disease-gene relations: PheWAS 
+drug-gene relations: DrugBank
+Hybrid
+![image](https://user-images.githubusercontent.com/49884281/114491605-e0b8fa80-9be4-11eb-9dbe-3faf5bd1ab0a.png)
+
 
