@@ -265,4 +265,6 @@ drug-gene relations: DrugBank
 Hybrid
 ![image](https://user-images.githubusercontent.com/49884281/114491605-e0b8fa80-9be4-11eb-9dbe-3faf5bd1ab0a.png)
 
+n-grams
+n-grams is another representation model for simplifying text selection contents. As opposed to the orderless representation of bag of words, n-grams modeling is interested in preserving contiguous sequences of N items from the text selection. It is usually bi-gram and tri-gram models.
 
