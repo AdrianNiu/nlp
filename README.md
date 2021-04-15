@@ -268,3 +268,13 @@ Hybrid
 n-grams
 n-grams is another representation model for simplifying text selection contents. As opposed to the orderless representation of bag of words, n-grams modeling is interested in preserving contiguous sequences of N items from the text selection. It is usually bi-gram and tri-gram models.
 
+
+Embeddings from Language Models
+Train a 2-layer bi-LM
+Use character CNN to build the initial word representations
+2048 char n-gram filters and 2 highway layers, 512 dim projection
+First run biLM to obtain the representations for each word
+Integrate with existing architectures
+
+
+
