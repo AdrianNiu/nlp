@@ -277,4 +277,4 @@ First run biLM to obtain the representations for each word
 Integrate with existing architectures
 
 
-
+Named entity extraction: In data mining, a named entity definition is a phrase or word that clearly identifies one item from a set of other items that have similar attributes. Examples include first and last names, age, geographic locations, addresses, phone numbers, email addresses, company names, etc. Named entity extraction, sometimes also called named entity recognition, makes it easier to mine data.
