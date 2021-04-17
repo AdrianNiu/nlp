@@ -111,10 +111,7 @@ import spacy
 ## for vectorizer
 from sklearn import feature_extraction, manifold
 ## for word embedding
-import gensim.downloader as gensim_api
-## for topic modeling
-import gensim
-
+import ge
 >>> def pos_features(word):
 ...     features = {}
 ...     for suffix in common_suffixes:
