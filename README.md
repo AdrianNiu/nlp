@@ -275,3 +275,6 @@ Integrate with existing architectures
 
 
 Named entity extraction: In data mining, a named entity definition is a phrase or word that clearly identifies one item from a set of other items that have similar attributes. Examples include first and last names, age, geographic locations, addresses, phone numbers, email addresses, company names, etc. Named entity extraction, sometimes also called named entity recognition, makes it easier to mine data.
+
+13. Zipf’s Law
+Zipf’s Law is used to describe the relationship between word frequencies in document collections. If a document collection’s words are ordered by frequency, and y is used to describe the number of times that the xth word appears, Zipf’s observation is concisely captured as y = cx-1/2 (item frequency is inversely proportional to item rank). 
