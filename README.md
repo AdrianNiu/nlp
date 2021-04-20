@@ -273,8 +273,13 @@ Use character CNN to build the initial word representations
 First run biLM to obtain the representations for each word
 Integrate with existing architectures
 
-
-Named entity extraction: In data mining, a named entity definition is a phrase or word that clearly identifies one item from a set of other items that have similar attributes. Examples include first and last names, age, geographic locations, addresses, phone numbers, email addresses, company names, etc. Named entity extraction, sometimes also called named entity recognition, makes it easier to mine data.
-
-13. Zipf’s Law
-Zipf’s Law is used to describe the relationship between word frequencies in document collections. If a document collection’s words are ordered by frequency, and y is used to describe the number of times that the xth word appears, Zipf’s observation is concisely captured as y = cx-1/2 (item frequency is inversely proportional to item rank). 
+## Word Vector Visualization
+import matplotlib.pyplot as plt
+plt.figure(figsize=(13,7))
+plt.scatter(neww_X[:,0],neww_X[:,1],linewidths=10,color='blue')
+plt.xlabel("PC1",size=15)
+plt.ylabel("PC2",size=15)
+plt.title("Word Embedding Space",size=20)
+vocab=list(model.wv.vocab)
+for i, word in enumerate(vocab):
+plt.annotate(word,xy=(neww_X[i,0],neww_X[i,1]))
