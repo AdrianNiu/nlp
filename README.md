@@ -213,20 +213,4 @@ model = LinearSVC()
 model.fit(training_features, train_data["sentiment"])
 y_pred = model.predict(test_features)
 
-# Evaluation
-acc = accuracy_score(test_data["sentiment"], y_pred)
-
-print("Accuracy on the IMDB dataset: {:.2f}".format(acc*100))
-
-logdir = "logs/scalars/" + datetime.now().strftime("%Y%m%d-%H%M%S")
-tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
-
-chars = sorted(list(set(text)))
-char_indices = dict((c, i) for i, c in enumerate(chars))
-indices_char = dict((i, c) for i, c in enumerate(chars))
-
-Tokenization: is used to segment the input text into its constituents words (tokens). In this way, it becomes easier to then convert our data into a numerical format.
-Stop Words Removal: is applied in order to remove from our text all the prepositions (eg. “an”, “the”, etc…) which can just be considered as a source of noise in our data (since they do not carry additional informative information in our data).
-Stemming: is finally used in order to get rid of all the affixes in our data (eg. prefixes or suffixes). In this way, it can in fact become much easier for our algorithm to not consider as distinguished words which have actually similar meaning (eg. insight ~ insightful).
-
 
