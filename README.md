@@ -205,12 +205,3 @@ from sklearn.svm import LinearSVC
 vectorizer = CountVectorizer(stop_words="english",
                              preprocessor=clean_text)
 
-training_features = vectorizer.fit_transform(train_data["text"])    
-test_features = vectorizer.transform(test_data["text"])
-
-# Training
-model = LinearSVC()
-model.fit(training_features, train_data["sentiment"])
-y_pred = model.predict(test_features)
-
-
