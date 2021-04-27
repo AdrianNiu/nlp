@@ -139,8 +139,5 @@ def get_short_form_feature(short_form, all_short_forms):
 >>> nltk.classify.accuracy(classifier, test_set)
 0.62705121829935351
 
-Convolutional Layer
-A convolutional layer can be thought of as composed of a series of “maps” called the “feature map” or the “activation map” . Each activation map has two components :
-A linear map, obtained by convolution over maps in the previous layer (each linear map has, associated with it, a learnable filter or kernal)
-An activation that operates on the output of the convolution
+
 
