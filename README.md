@@ -91,32 +91,6 @@ CRISP-DM Model is a Cross-industry standard process for data mining, known as CR
 Syntactic Regularities: Refers to grammatical sentence correction.
 Semantic Regularities: Refers to the meaning of the vocabulary symbols arranged in that structure.
 
-## for data
-import pandas as pd
-import collections
-import json
-## for plotting
-import matplotlib.pyplot as plt
-import seaborn as sns
-import wordcloud
-## for text processing
-import re
-import nltk
-## for language detection
-import langdetect 
-## for sentiment
-from textblob import TextBlob
-## for ner
-import spacy
-## for vectorizer
-from sklearn import feature_extraction, manifold
-## for word embedding
-import ge
->>> def pos_features(word):
-...     features = {}
-...     for suffix in common_suffixes:
-...         features['endswith({})'.format(suffix)] = word.lower().endswith(suffix)
-...     return features
 
 
 
