@@ -49,47 +49,6 @@ SVM is a discriminative classifier formally defined by a separating hyperplane
 Given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples
 In two dimensional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side
 
-In NLP mental health prediction research, when studying proxy signals, it is crusical to see if it actually mapped to a good measurement of mental illness and symptoms.
-
-Word embeddings help in the following use cases.
-Compute similar words
-Text classifications
-Document clustering/grouping
-Feature extraction for text classifications
-Natural language processing.
-
-AWS Kinesis works as a temporary storage mechanism for faster retrieval for further downstream components and NLP. Once data is produced, it is consumed by the consumer. 
-
-Bags of words
-The most intuitive way to do so is to use a bags of words representation:
-
-Assign a fixed integer id to each word occurring in any document of the training set (for instance by building a dictionary from words to integer indices).
-
-For each document #i, count the number of occurrences of each word w and store it in X[i, j] as the value of feature #j where j is the index of word w in the dictionary.
-
-def get_bag_of_words_features(document, vocabulary):
-    """
-    Bag of words representation of the text in the specified document.
-
-    :param str document: Plain text.
-    :param list vocabulary: The unique set of words across all documents.
-    :returns: Bag of words features for this document.
-    :rtype: dict
-    """
-    document_words = set(nltk.word_tokenize(document.lower()))
-    features = {}
-    for word in vocabulary:
-        features[f"contains({word})"] = (word in document_words)
-    return features
-    
-Word2Vec
-Word2Vec — Word representations in Vector Space founded by Tomas Mikolov and a group of a research team from Google developed this model in 2013.
-
-Standard NLP Workflow
-CRISP-DM Model is a Cross-industry standard process for data mining, known as CRISP-DM, which is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. Typically, any NLP-based problem can be solved by a methodical workflow that has a sequence of steps. The major steps are depicted in the following figure.
-
-Syntactic Regularities: Refers to grammatical sentence correction.
-Semantic Regularities: Refers to the meaning of the vocabulary symbols arranged in that structure.
 
 
 
