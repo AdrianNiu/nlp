@@ -44,12 +44,6 @@ models the decision boundary between the classes
 model only for the target variable(s) conditional on the observed variables
 Logistic regression, Decision tree, Support vector machine, k nearest neighbor, conditional random field…
 
-#### SVM
-SVM is a discriminative classifier formally defined by a separating hyperplane
-Given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples
-In two dimensional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side
-
-
 
 
 
