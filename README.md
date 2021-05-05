@@ -23,5 +23,11 @@ Macroaveraging: Compute performance for each class, then average.
 Microaveraging: Collect decisions for all classes, compute contingency table, evaluate.
 
 
+Three barriers have impeded accurate identification of suicidal risk. 
+
+1. suicidal behavior is relatively rare and predictive models often require large population samples.
+2. risk assessment relies heavily on patient self-report, yet patients may be motivated to conceal their suicidal intentions. 
+3. prior to suicide attempts, the last point of clinical contact of patients who die by suicide commonly involves providers with varying levels of suicidal-risk assessment training.
+
 
 
