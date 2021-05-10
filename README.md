@@ -37,3 +37,5 @@ In NLP, lemmatization is the process of figuring out the root form or root word 
 
 StopWords
 Words which have little or no significance, especially when constructing meaningful features from text, are known as stopwords or stop words. These are usually words that end up having the maximum frequency if you do a simple term or word frequency in a corpus. Consider words like a, an, the, be etc. These words don’t add any extra information in a sentence.
+
+A stall is injected into the pipeline by the processor to resolve data hazards (situations where the data required to process an instruction is not yet available. A NOP is just an instruction with no side-effect.
