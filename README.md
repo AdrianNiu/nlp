@@ -55,5 +55,3 @@ sample_text = "Oh man, this is pretty cool. We will do more such things."
 text_tokens = word_tokenize(sample_text)
 tokens_without_sw = [word for word in text_tokens if not word in stopwords.words('english')]
 
-print(text_tokens)
-print(tokens_without_sw)
