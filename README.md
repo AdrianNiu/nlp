@@ -49,9 +49,3 @@ from nltk.tokenize import word_tokenize
 
 ## print(stopwords.words('english'))
 
-# random sentence with lot of stop words
-sample_text = "Oh man, this is pretty cool. We will do more such things."
-
-text_tokens = word_tokenize(sample_text)
-tokens_without_sw = [word for word in text_tokens if not word in stopwords.words('english')]
-
