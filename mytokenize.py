@@ -7,6 +7,7 @@ sentence = "All other systems were reviewed and were negative."
 tokens = nltk.word_tokenize(sentence)
 print(tokens)
 # word_tokenize is a sub library in nltk
+# tensorflow
 ####### Stemming  #####################
 
 stemmer1 = nltk.SnowballStemmer("english")
