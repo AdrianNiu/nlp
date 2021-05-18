@@ -29,3 +29,23 @@ In NLP, lemmatization is the process of figuring out the root form or root word 
 
 StopWords
 Words which have little or no significance, especially when constructing meaningful features from text, are known as stopwords or stop words. These are usually words that end up having the maximum frequency if you do a simple term or word frequency in a corpus. Consider words like a, an, the, be etc. These words don’t add any extra information in a sentence.
+
+
+const { NlpManager } = require('node-nlp');
+const manager = new NlpManager({ languages: ['en'] });
+
+// Adds the utterances and intents for the NLP
+manager.addDocument('en', 'goodbye for now', 'greetings.bye');
+manager.addDocument('en', 'bye bye take care', 'greetings.bye');
+
+// Train also the NLG
+manager.addAnswer('en', 'greetings.bye', 'Till next time');
+manager.addAnswer('en', 'greetings.bye', 'see you soon!');
+
+// Train and save the model.
+(async() => {
+    await manager.train();
+    manager.save();
+    const response = await manager.process('en', 'I should go now');
+    console.log(response);
+})();
