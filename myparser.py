@@ -101,6 +101,7 @@ cfg3 = r"""
         VP:{<VP><CC>?<VP>}
         """
 
+# different CFC selections yield different model result
 Reg_parser = nltk.RegexpParser(cfg3)
 # change the cfg# to adjust context free grammar number to test 
 Reg_parser.parse(input_pos_tagged)
