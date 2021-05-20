@@ -49,3 +49,7 @@ manager.addAnswer('en', 'greetings.bye', 'see you soon!');
     const response = await manager.process('en', 'I should go now');
     console.log(response);
 })();
+
+Q: How exactly does NLP technology go through EHRs and find SDOH? And what does it do with the SDOH data?
+
+A: NLP allows providers to unlock SDOH from EHRs to gain a more complete picture of each patient's circumstances. A user can quickly create a query to extract key concepts and relationships from unstructured patient data to identify issues such as social isolation, transport problems and cultural factors that may impact health and outcomes.
