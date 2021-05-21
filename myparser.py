@@ -65,6 +65,8 @@ pos_tagged_2 = nltk.pos_tag(sent2_toks)
 pos1 = pos_tagged_1[7][1]
 pos2 = pos_tagged_2[6][1]
 
+#POS tagged for tokenized words sentence 
+
 print(pos_tagged_1)
 print(pos_tagged_2)
 
