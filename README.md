@@ -30,6 +30,8 @@ In NLP, lemmatization is the process of figuring out the root form or root word 
 StopWords
 Words which have little or no significance, especially when constructing meaningful features from text, are known as stopwords or stop words. These are usually words that end up having the maximum frequency if you do a simple term or word frequency in a corpus. Consider words like a, an, the, be etc. These words don’t add any extra information in a sentence.
 
+n-grams
+n-grams is another representation model for simplifying text selection contents. As opposed to the orderless representation of bag of words, n-grams modeling is interested in preserving contiguous sequences of N items from the text selection. It is usually bi-gram and tri-gram models.
 
 const { NlpManager } = require('node-nlp');
 const manager = new NlpManager({ languages: ['en'] });
