@@ -12,6 +12,12 @@ identify phrases and their hierarchical (is-a) relations (excludes terminal node
 Dependency parsing
 identify grammatical relations (lots of them) between syntactic units (including terminal nodes)
 
+Supervised learning
+Learn from human knowledge (training data)
+Unsupervised learning
+Learn from unlabeled data
+Semi-supervised learning
+Learn from incomplete training data, where a portion of the sample inputs are missing the desired output.
 
 
 ##Validation method:
