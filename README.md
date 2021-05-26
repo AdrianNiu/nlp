@@ -49,6 +49,7 @@ models the decision boundary between the classes
 model only for the target variable(s) conditional on the observed variables
 Logistic regression, Decision tree, Support vector machine, k nearest neighbor, conditional random field…
 
+![image](https://user-images.githubusercontent.com/49884281/119600356-e34a6a80-bdb4-11eb-88f7-b3fdb5546796.png)
 
 
 const { NlpManager } = require('node-nlp');
