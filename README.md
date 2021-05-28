@@ -72,3 +72,22 @@ manager.addAnswer('en', 'greetings.bye', 'see you soon!');
 })();
 
 NLP allows providers to unlock SDOH from EHRs to gain a more complete picture of each patient's circumstances. A user can quickly create a query to extract key concepts and relationships from unstructured patient data to identify issues such as social isolation, transport problems and cultural factors that may impact health and outcomes.
+
+IBM Watson API
+IBM Watson API combines different sophisticated machine learning techniques to enable developers to classify text into various custom categories. It supports multiple languages, such as English, French, Spanish, German, Chinese, etc. With the help of IBM Watson API, you can extract insights from texts, add automation in workflows, enhance search, and understand the sentiment. The main advantage of this API is that it is very easy to use.
+Pricing: Firstly, it offers a free 30 days trial IBM cloud account. You can also opt for its paid plans.
+Chatbot API
+Chatbot API allows you to create intelligent chatbots for any service. It supports Unicode characters, classifies text, multiple languages, etc. It is very easy to use. It helps you to create a chatbot for your web applications.
+Pricing: Chatbot API is free for 150 requests per month. You can also opt for its paid version, which starts from $100 to $5,000 per month.
+Speech to text API
+Speech to text API is used to convert speech to text
+Pricing: Speech to text API is free for converting 60 minutes per month. Its paid version starts form $500 to $1,500 per month.
+Sentiment Analysis API
+Sentiment Analysis API is also called as 'opinion mining' which is used to identify the tone of a user (positive, negative, or neutral)
+Pricing: Sentiment Analysis API is free for less than 500 requests per month. Its paid version starts form $19 to $99 per month.
+Translation API by SYSTRAN
+The Translation API by SYSTRAN is used to translate the text from the source language to the target language. You can use its NLP APIs for language detection, text segmentation, named entity recognition, tokenization, and many other tasks.
+Pricing: This API is available for free. But for commercial users, you need to use its paid version.
+Text Analysis API by AYLIEN
+Text Analysis API by AYLIEN is used to derive meaning and insights from the textual content. It is available for both free as well as paid from$119 per month. It is easy to use.
+Pricing: This API is available free for 1,000 hits per day. You can also use its paid version, which starts from $199 to S1, 399 per month.
