@@ -91,3 +91,5 @@ Pricing: This API is available for free. But for commercial users, you need to u
 Text Analysis API by AYLIEN
 Text Analysis API by AYLIEN is used to derive meaning and insights from the textual content. It is available for both free as well as paid from$119 per month. It is easy to use.
 Pricing: This API is available free for 1,000 hits per day. You can also use its paid version, which starts from $199 to S1, 399 per month.
+
+leverage clustering algorithms because of their unsupervised nature; this is critical because we have no prior knowledge regarding the noise distribution in the labels, requiring a clustering procedure that is independent of the web-scraped labels.
