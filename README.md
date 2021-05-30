@@ -93,3 +93,5 @@ Text Analysis API by AYLIEN is used to derive meaning and insights from the text
 Pricing: This API is available free for 1,000 hits per day. You can also use its paid version, which starts from $199 to S1, 399 per month.
 
 leverage clustering algorithms because of their unsupervised nature; this is critical because we have no prior knowledge regarding the noise distribution in the labels, requiring a clustering procedure that is independent of the web-scraped labels.
+
+Suicide example: Data Collection — Our journey started from Data Collection via Reddit’s API (which only allows us to get approximately 1000 unique posts per subreddit).
