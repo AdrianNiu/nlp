@@ -126,4 +126,3 @@ Suicide example: Data Collection — Our journey started from Data Collection vi
 
 MTK NLP, short for “MediaTek Natural Language Processing,” is an NLP service native to Android phones. While somewhat notorious for taking full location access to some Android phones, Android’s MTK NLP service is not necessarily representative of NLP as a whole. However, the MTK NLP service does allow for certain NLP applications in Android phones, specifically Google Assistant and Google Lookup—two common applications of NLP software!
 
-Note that if you have had problems with MTK NLP on your Android phone, you will not also have problems with NLP software in your business environment.
