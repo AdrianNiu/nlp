@@ -99,6 +99,10 @@ manager.addAnswer('en', 'greetings.bye', 'see you soon!');
     console.log(response);
 })();
 
+Zipf’s Law
+Zipf’s Law is used to describe the relationship between word frequencies in document collections. If a document collection’s words are ordered by frequency, and y is used to describe the number of times that the xth word appears, Zipf’s observation is concisely captured as y = cx-1/2 (item frequency is inversely proportional to item rank). More generally,
+
+
 NLP allows providers to unlock SDOH from EHRs to gain a more complete picture of each patient's circumstances. A user can quickly create a query to extract key concepts and relationships from unstructured patient data to identify issues such as social isolation, transport problems and cultural factors that may impact health and outcomes.
 
 IBM Watson API
