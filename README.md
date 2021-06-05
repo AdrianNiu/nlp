@@ -82,31 +82,3 @@ Logistic regression, Decision tree, Support vector machine, k nearest neighbor, 
 
 const { NlpManager } = require('node-nlp');
 const manager = new NlpManager({ languages: ['en'] });
-
-// Adds the utterances and intents for the NLP
-manager.addDocument('en', 'goodbye for now', 'greetings.bye');
-manager.addDocument('en', 'bye bye take care', 'greetings.bye');
-
-// Train also the NLG
-manager.addAnswer('en', 'greetings.bye', 'Till next time');
-manager.addAnswer('en', 'greetings.bye', 'see you soon!');
-
-// Train and save the model.
-(async() => {
-    await manager.train();
-    manager.save();
-    const response = await manager.process('en', 'I should go now');
-    console.log(response);
-})();
-
-Zipf’s Law
-Zipf’s Law is used to describe the relationship between word frequencies in document collections. If a document collection’s words are ordered by frequency, and y is used to describe the number of times that the xth word appears, Zipf’s observation is concisely captured as y = cx-1/2 (item frequency is inversely proportional to item rank). More generally,
-
-
-NLP allows providers to unlock SDOH from EHRs to gain a more complete picture of each patient's circumstances. A user can quickly create a query to extract key concepts and relationships from unstructured patient data to identify issues such as social isolation, transport problems and cultural factors that may impact health 
-leverage clustering algorithms because of their unsupervised nature; this is critical because we have no prior knowledge regarding the noise distribution in the labels, requiring a clustering procedure that is independent of the web-scraped labels.
-
-Suicide example: Data Collection — Our journey started from Data Collection via Reddit’s API (which only allows us to get approximately 1000 unique posts per subreddit).
-
-MTK NLP, short for “MediaTek Natural Language Processing,” is an NLP service native to Android phones. While somewhat notorious for taking full location access to some Android phones, Android’s MTK NLP service is not necessarily representative of NLP as a whole. However, the MTK NLP service does allow for certain NLP applications in Android phones, specifically Google Assistant and Google Lookup—two common applications of NLP software!
-
