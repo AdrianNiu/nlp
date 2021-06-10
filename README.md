@@ -53,7 +53,3 @@ n-grams is another representation model for simplifying text selection contents.
 Generative
 models the actual distribution of each class
 full probabilistic model of all variables - specifies a joint probability distribution over observation and label sequences. 
-Bayesian network, Naïve Bayes
-
-const { NlpManager } = require('node-nlp');
-const manager = new NlpManager({ languages: ['en'] });
