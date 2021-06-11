@@ -30,11 +30,6 @@ Three barriers have impeded accurate identification of suicidal risk.
 2. risk assessment relies heavily on patient self-report, yet patients may be motivated to conceal their suicidal intentions. 
 3. prior to suicide attempts, the last point of clinical contact of patients who die by suicide commonly involves providers with varying levels of suicidal-risk assessment training.
 
-def wordcloud_draw(data, color = 'black'):
-    words = ' '.join(data)
-    cleaned_word = " ".join([word for word in words.split()
-                            if 'http' not in word
-                                and not word.startswith
 
 print("Positive words")
 wordcloud_draw(train_pos,'white')
