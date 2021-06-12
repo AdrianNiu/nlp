@@ -30,12 +30,6 @@ Three barriers have impeded accurate identification of suicidal risk.
 2. risk assessment relies heavily on patient self-report, yet patients may be motivated to conceal their suicidal intentions. 
 3. prior to suicide attempts, the last point of clinical contact of patients who die by suicide commonly involves providers with varying levels of suicidal-risk assessment training.
 
-
-print("Positive words")
-wordcloud_draw(train_pos,'white')
-print("Negative words")
-wordcloud_draw(train_neg)
-
 Lemmatization:
 In NLP, lemmatization is the process of figuring out the root form or root word (most basic form) or lemma of each word in the sentence. Lemmatization is very similar to stemming, where we remove word affixes to get to the base form of a word. The difference is that the root word is always a lexicographically correct word (present in the dictionary), but the root stem may not be so. Thus, the root word, also known as the lemma, will always be present in the dictionary. It uses a knowledge base called WordNet. Because of knowledge, lemmatization can even convert words that are different and cant be solved by stemmers, for example converting “came” to “come”.
 
