@@ -39,6 +39,10 @@ Words which have little or no significance, especially when constructing meaning
 n-grams
 n-grams is another representation model for simplifying text selection contents. As opposed to the orderless representation of bag of words, n-grams modeling is interested in preserving contiguous sequences of N items from the text selection. It is usually bi-gram and tri-gram models.
 
+Name Entity Recognition
+NER is an essential NLP task that allows us to spot the main entities in a text. The most popular ways of extracting entities from the text include the Lexicon approach, Rule-based systems, Machine learning-based systems, and Hybrid approach
+
+
 Generative
 models the actual distribution of each class
 full probabilistic model of all variables - specifies a joint probability distribution over observation and label sequences. 
