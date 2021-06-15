@@ -48,4 +48,4 @@ models the actual distribution of each class
 full probabilistic model of all variables - specifies a joint probability distribution over observation and label sequences. 
 
 Another useful analysis technique is identifying the different parts of speech within a specific text or a sentence. POS tagging results in a list of tuples; each tuple contains the word and its tag. The tag is a description of the word’s part of speech, is it a verb, noun, adjective, etc.
-In most applications, we initially use a default tagger to get basic POS tagging that we can then enhance. The NLTK package offers a default tagger that can give you the basic tagging of any text.
+In most applications, we initially use a default tagger to get basic POS tagging that we can then enhance.
