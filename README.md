@@ -53,4 +53,5 @@ In text analysis tasks, n-grams refer to diving the corpus into n-words chunks. 
 Another useful analysis technique is identifying the different parts of speech within a specific text or a sentence. POS tagging results in a list of tuples; each tuple contains the word and its tag. The tag is a description of the word’s part of speech, is it a verb, noun, adjective, etc.
 In most applications, we initially use a default tagger to get basic POS tagging that we can then enhance.
 
-New start: social determinant of health on NLP 
+New start: social determinant of health on NLP ， employment stability, relationship dyad, access to lethal means
+
