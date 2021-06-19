@@ -55,3 +55,6 @@ In most applications, we initially use a default tagger to get basic POS tagging
 
 New start: social determinant of health on NLP ， employment stability, relationship dyad, access to lethal means
 
+Corpus
+
+In linguistics and NLP, corpus (literally Latin for body) refers to a collection of texts. Such collections may be formed of a single language of texts, or can span multiple languages -- there are numerous reasons for which multilingual corpora (the plural of corpus) may be useful. Corpora may also consist of themed texts (historical, Biblical, etc.). Corpora are generally solely used for statistical linguistic analysis and hypothesis testing.
