@@ -47,9 +47,6 @@ Generative
 models the actual distribution of each class
 full probabilistic model of all variables - specifies a joint probability distribution over observation and label sequences. 
 
-NGram:
-In text analysis tasks, n-grams refer to diving the corpus into n-words chunks. These chunks are often constructed by moving one word at a time. When n =1, we use the term unigrams instead of 1-gram. In case n = 2, we call it bigams, and when n = 3, it’s called trigrams.
-
 Another useful analysis technique is identifying the different parts of speech within a specific text or a sentence. POS tagging results in a list of tuples; each tuple contains the word and its tag. The tag is a description of the word’s part of speech, is it a verb, noun, adjective, etc.
 In most applications, we initially use a default tagger to get basic POS tagging that we can then enhance.
 
@@ -60,3 +57,4 @@ Corpus
 In linguistics and NLP, corpus (literally Latin for body) refers to a collection of texts. Such collections may be formed of a single language of texts, or can span multiple languages -- there are numerous reasons for which multilingual corpora (the plural of corpus) may be useful. Corpora may also consist of themed texts (historical, Biblical, etc.). Corpora are generally solely used for statistical linguistic analysis and hypothesis testing.
 
 Tokenization is the process of demarcating and possibly classifying sections of a string of input characters. The resulting tokens are then passed on to some other form of processing. The process can be considered a sub-task of parsing input
+
