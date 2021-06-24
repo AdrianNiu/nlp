@@ -54,3 +54,23 @@ In linguistics and NLP, corpus (literally Latin for body) refers to a collection
 Tokenization is the process of demarcating and possibly classifying sections of a string of input characters. The resulting tokens are then passed on to some other form of processing. The process can be considered a sub-task of parsing input
 
 An optimization model seeks to find the values of the decision variables that optimize (maximize or minimize) an objective function among the set of all values for the decision variables that satisfy the given constraints. 
+
+logdir = "logs/scalars/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
+
+chars = sorted(list(set(text)))
+char_indices = dict((c, i) for i, c in enumerate(chars))
+indices_char = dict((i, c) for i, c in enumerate(chars))
+
+seqlen = 40
+step = seqlen
+sentences = []
+for i in range(0, len(text) - seqlen - 1, step):
+    sentences.append(text[i: i + seqlen + 1])
+
+x = np.zeros((len(sentences), seqlen, len(chars)), dtype=np.bool)
+y = np.zeros((len(sentences), seqlen, len(chars)), dtype=np.bool)
+for i, sentence in enumerate(sentences):
+    for t, (char_in, char_out) in enumerate(zip(sentence[:-1], sentence[1:])):
+        x[i, t, char_indices[char_in]] = 1
+        y[i, t, char_indices[char_out]] = 1
