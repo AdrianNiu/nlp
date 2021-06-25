@@ -74,3 +74,7 @@ for i, sentence in enumerate(sentences):
     for t, (char_in, char_out) in enumerate(zip(sentence[:-1], sentence[1:])):
         x[i, t, char_indices[char_in]] = 1
         y[i, t, char_indices[char_out]] = 1
+        
+pred_path = 'release_data/qqp/predictions/bert'
+suite.run_from_file(pred_path, overwrite=True, file_format='binary_conf')
+suite.visual_summary_table()
