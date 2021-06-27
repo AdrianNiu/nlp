@@ -80,3 +80,6 @@ suite.run_from_file(pred_path, overwrite=True, file_format='binary_conf')
 suite.visual_summary_table()
 
 Systematic review of suicide prediction and VA data access
+
+Dependency Parsing
+The next step is to figure out how all the words in our sentence relate to each other. This is called dependency parsing
