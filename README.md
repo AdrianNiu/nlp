@@ -83,3 +83,15 @@ Systematic review of suicide prediction and VA data access
 
 Dependency Parsing
 The next step is to figure out how all the words in our sentence relate to each other. This is called dependency parsing
+
+import numpy as np
+countries = ['France', 'Germany', 'Brazil']
+for country in countries:
+    ts = editor.template('{male} {last} is from {city}',
+                male=editor.lexicons.male_from[country],
+                last=editor.lexicons.last_from[country],
+                city=editor.lexicons.country_city[country],
+               )
+    print('Country: %s' % country)
+    print('\n'.join(np.random.choice(ts.data, 3)))
+    print()
