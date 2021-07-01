@@ -138,3 +138,9 @@ print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"])
 # Find named entities, phrases and concepts
 for entity in doc.ents:
     print(entity.text, entity.label_)
+    
+    running task:
+    # One line per example
+test.to_raw_file('/tmp/raw_file.txt')
+# each line has prediction probabilities (softmax)
+test.run_from_file('/tmp/softmax_preds.txt', file_format='softmax', overwrite=True)
