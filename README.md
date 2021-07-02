@@ -1,5 +1,4 @@
 # NLP analysis pipline
-
 Preprocessing >> Tokenization >> Segmentation >> POS Tagging >> Lemmatization >> Parsing
 
 Natural Language Processing (NLP) offers wide-ranging solutions to retrieve and classify data from EHRs. Text mining, which is part of the NLP family, is defined as the analysis of ‘naturally-occurring’ text driven by human specification to achieve one or a range of goals (e.g. information retrieval or artificial intelligence)
