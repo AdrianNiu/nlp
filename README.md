@@ -143,3 +143,11 @@ for entity in doc.ents:
 test.to_raw_file('/tmp/raw_file.txt')
 # each line has prediction probabilities (softmax)
 test.run_from_file('/tmp/softmax_preds.txt', file_format='softmax', overwrite=True)
+
+
+# Disadvantages of single feature evaluation
+Relevance between features are ignored
+Features could be redundant 
+A feature that is completely useless by itself can provide a significant performance improvement when taken with others
+Two features that are useless by themselves can be useful together
+
