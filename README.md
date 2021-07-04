@@ -151,3 +151,5 @@ Features could be redundant
 A feature that is completely useless by itself can provide a significant performance improvement when taken with others
 Two features that are useless by themselves can be useful together
 
+Latent Dirichlet Allocation (LDA) - A common topic modeling technique, LDA is based on the premise that each document or piece of text is a mixture of a small number of topics and that each word in a document is attributable to one of the topics.
+
