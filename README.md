@@ -153,3 +153,11 @@ Two features that are useless by themselves can be useful together
 
 Latent Dirichlet Allocation (LDA) - A common topic modeling technique, LDA is based on the premise that each document or piece of text is a mixture of a small number of topics and that each word in a document is attributable to one of the topics.
 
+
+# Dimensionality Reduction
+
+Principal component analysis
+mathematical procedure that uses orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.
+Keeping only the first L principal components, produced by using only the first L loading vectors, gives the truncated transformation
+
+
