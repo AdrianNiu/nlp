@@ -4,7 +4,7 @@ Preprocessing >> Tokenization >> Segmentation >> POS Tagging >> Lemmatization >>
 Natural Language Processing (NLP) offers wide-ranging solutions to retrieve and classify data from EHRs. Text mining, which is part of the NLP family, is defined as the analysis of ‘naturally-occurring’ text driven by human specification to achieve one or a range of goals (e.g. information retrieval or artificial intelligence)
 
 ##Two main category of parsing
-
+  New start 
 Constituency parsing
 identify phrases and their hierarchical (is-a) relations (excludes terminal nodes)
 
