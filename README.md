@@ -163,3 +163,7 @@ Keeping only the first L principal components, produced by using only the first 
 
 One example would be to look for patterns from multiple data sources (like patient portal messages, nurse notes, telehealth transcripts and even social media) and analyze the data. Data could be extracted using Natural Language Processing (NLP) via an Augmented Intelligence (AI) process which allows you to access and combine both structured and unstructured text content to get a clear depiction of the potential issues arising. 
 
+python -m venv .env
+source .env/bin/activate
+pip install -U pip setuptools wheel
+pip install -U spacy
