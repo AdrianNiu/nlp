@@ -134,6 +134,8 @@ text = ("When Sebastian Thrun started working on self-driving cars at "
         "this week.")
 doc = nlp(text)
 
+Explicit Semantic Analysis (ESA) - Used in Information Retrieval, Document Classification and Semantic Relatedness calculation (i.e. how similar in meaning two words or pieces of text are to each other), ESA is the process of understanding the meaning of a piece text, as a combination of the concepts found in that text.
+
 # Analyze syntax
 print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
 print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"])
