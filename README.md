@@ -176,4 +176,4 @@ pip install -U spacy
 
 
 NLP SDOH Employment instability
-
+That social determinants are enjoying a moment-in-the-sun undeniably represents progress toward a more wholistic approach to healthcare. 
