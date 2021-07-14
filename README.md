@@ -177,3 +177,6 @@ pip install -U spacy
 
 NLP SDOH Employment instability
 That social determinants are enjoying a moment-in-the-sun undeniably represents progress toward a more wholistic approach to healthcare. 
+
+
+Pre-processing — We will build a pre-processing function that helped change the text to lowercase, remove punctuations, lemmatise related words down to a common base word.
